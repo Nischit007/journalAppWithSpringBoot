@@ -26,7 +26,7 @@
 //     public List<JournalEntry> getAll(){
 //         return new ArrayList<>(journalEntries.values());
 //     }
-    
+
 //     @PostMapping
 //     public boolean createEntry(@RequestBody JournalEntry myentry){
 //         journalEntries.put(myentry.getid(),myentry);
@@ -42,7 +42,7 @@
 //     @DeleteMapping("/id/{myid}")
 //     public JournalEntry deleteJournalEntryById(@PathVariable Long myid){
 //        return journalEntries.remove(myid);
-        
+
 //     }
 
 //     @PutMapping("/id/{myid}")

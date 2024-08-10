@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:16.2
+    restart: always
+    environment:
+      POSTGRES_DB: journaldb
+      POSTGRES_USER: journaldb
+      POSTGRES_PASSWORD: My$123pass
+    ports:
+      - "5433:5432"
